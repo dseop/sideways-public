@@ -19,7 +19,7 @@
 - **개인정보 보호:** 모든 이미지 처리는 기기 내에서 로컬로 이루어집니다. 사진은 외부로 전송되지 않습니다.
 
 ## 📄 문서 및 지원
-- [개인정보 처리방침 (Web)](https://dseop.github.io/sideways-public/privacy)
+- [개인정보 처리방침 (Web)](https://dseop.github.io/sideways-public/privacy/)
 - **문의처:** 문제가 발생하거나 기능 제안이 있다면 [Issue Repository](https://github.com/dseop/sideways-public/issues)에 남겨주세요.
 
 ---
