@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Sideways</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { margin-top: 30px; }
+        .language-toggle { margin-bottom: 20px; text-align: right; }
+        .language-toggle a { cursor: pointer; color: #007AFF; text-decoration: none; margin-left: 10px; }
+        footer { margin-top: 50px; font-size: 0.8em; color: #777; border-top: 1px solid #eee; padding-top: 20px; }
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+    <div class="language-toggle">
+        <a onclick="showLang('en')">English</a> | <a onclick="showLang('ko')">한국어</a>
+    </div>
+
+    <div id="content-en">
+        <h1>Privacy Policy</h1>
+        <p><strong>Last Updated: May 2, 2026</strong></p>
+        <p>Sideways (the "App") values your privacy. This Privacy Policy explains how we handle your information.</p>
+
+        <h2>1. Information Collection</h2>
+        <p>The App does <strong>not</strong> collect or transmit any personally identifiable information (PII) to any external servers. We only use the following permissions necessary for the App's functionality:</p>
+        <ul>
+            <li><strong>Camera:</strong> To provide the photo capture functionality.</li>
+            <li><strong>Photo Library:</strong> To save captured photos to your device and display them in the in-app gallery.</li>
+        </ul>
+
+        <h2>2. Data Usage</h2>
+        <ul>
+            <li>All image processing is performed <strong>locally on your device</strong>.</li>
+            <li>We do not upload or share your images with any external servers.</li>
+        </ul>
+
+        <h2>3. Third-Party Sharing</h2>
+        <p>We do not share your data with any third parties or use any third-party analytics/tracking services.</p>
+
+        <h2>4. Data Security</h2>
+        <p>All photo data is managed securely within the standard iOS security framework.</p>
+
+        <h2>5. Contact</h2>
+        <p>If you have any questions regarding this Privacy Policy, please contact us via our GitHub repository:</p>
+        <p><a href="https://github.com/dseop/sideways-public">https://github.com/dseop/sideways-public</a></p>
+    </div>
+
+    <div id="content-ko" class="hidden">
+        <h1>개인정보 처리방침 (Privacy Policy)</h1>
+        <p><strong>마지막 업데이트: 2026년 5월 2일</strong></p>
+        <p>'Sideways'(이하 '앱')는 사용자의 개인정보를 소중하게 생각하며, 관련 법령을 준수합니다.</p>
+
+        <h2>1. 수집하는 개인정보 항목</h2>
+        <p>본 앱은 사용자의 어떠한 개인식별정보도 서버로 전송하거나 수집하지 않습니다. 앱 운영에 필요한 다음의 권한만을 사용합니다:</p>
+        <ul>
+            <li><strong>카메라 (Camera):</strong> 사진 촬영 기능을 제공하기 위해 필수적으로 접근합니다.</li>
+            <li><strong>사진 라이브러리 (Photo Library):</strong> 촬영한 사진을 기기에 저장하고 앱 내 갤러리에서 보여주기 위해 접근합니다.</li>
+        </ul>
+
+        <h2>2. 개인정보의 활용</h2>
+        <ul>
+            <li>앱에서 처리되는 모든 이미지 데이터는 <strong>사용자의 기기 내에서만 처리</strong>됩니다.</li>
+            <li>외부 서버로 이미지를 업로드하거나 공유하지 않습니다.</li>
+        </ul>
+
+        <h2>3. 제3자 제공 및 위탁</h2>
+        <p>본 앱은 사용자의 데이터를 제3자에게 제공하거나 외부 기관에 처리를 위탁하지 않습니다.</p>
+
+        <h2>4. 데이터 보안</h2>
+        <p>모든 사진 데이터는 iOS의 표준 보안 체계 내에서 안전하게 관리됩니다.</p>
+
+        <h2>5. 문의처</h2>
+        <p>본 개인정보 처리방침에 대해 궁금한 점이 있으시면 아래로 연락주시기 바랍니다.</p>
+        <p><a href="https://github.com/dseop/sideways-public">https://github.com/dseop/sideways-public</a></p>
+    </div>
+
+    <footer>
+        &copy; 2026 Sideways. All rights reserved.
+    </footer>
+
+    <script>
+        function showLang(lang) {
+            if (lang === 'en') {
+                document.getElementById('content-en').classList.remove('hidden');
+                document.getElementById('content-ko').classList.add('hidden');
+            } else {
+                document.getElementById('content-en').classList.add('hidden');
+                document.getElementById('content-ko').classList.remove('hidden');
+            }
+        }
+    </script>
+</body>
+</html>
